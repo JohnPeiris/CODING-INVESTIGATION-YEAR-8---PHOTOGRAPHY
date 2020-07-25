@@ -1,5 +1,13 @@
 #YEAR 8 CODING INVESTIGATION MINIMUM REQUIREMENTS
 #######################################################################################################################
+#######################################################################################################################
+# In this code I will be determining the settings required for a camera based on inputted settings from the user in   #
+# in order to allow for an effective and high quality photo to be accomplished. This code can determine aperture,     #
+# shutterspeed and ISO based off the inputs of the previous three, while maintining a steady baseline. If a user      #
+# enters values of which a brightness baseline cannot be achieved, the program will prompt the user to increase or    #
+# decrease certain settings to accommodate a brightness baseline which is sought. In addition, this code is           #
+# formidable against erroneous user inputs and will not crash at the plight of receiving a false or ill-typed entry.  #
+#######################################################################################################################
 #IMPORTS AND ERRORS
 #IMPORTS
 from tkinter import * #Used for table output
